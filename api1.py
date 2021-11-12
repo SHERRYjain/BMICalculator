@@ -17,7 +17,7 @@ def bmiConversion():
     height = input['height']
     name = input['name']
     ConversionResult = conversion(weight,height)
-    url = "http://192.168.1.6:"
+    url = "http://0.0.0.0:"
     port1 = 5001
     payload = json.dumps({
         "weight": ConversionResult["weight"],
